@@ -1,0 +1,134 @@
+#home{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+   margin-top: 70px;
+   margin-bottom: 70px;
+
+}
+.wordings{
+    max-width: 40%;
+    text-align: left;
+
+}
+.wordings h1{
+   
+    color: red;
+    margin: 0;
+}
+img{
+    height: 350px;
+    width: 350px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+
+}
+.aboutme{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+/* .aboutme h2{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.aboutme h2 ::after{
+    content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      transition: width 0.3s;
+}
+.aboutme h2:hover::after{
+    width: 100%;
+} */
+.abtdes{
+    display: flex;
+    margin-top: 70px;
+    font-size: large;
+    margin-bottom: 70px;
+    
+}
+.abtdes img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+.abtdes img:hover{
+    transform: scale(1.1);
+}
+.projects{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+.card{
+    width: 150px;
+    height: 300px;
+    margin-left: 40px;
+    background-color: rgb(162, 84, 236);
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border-radius: 50%;
+}
+.procards{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.modalbtn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.modalbtn:hover{
+    background-color: black;
+}
+.skills{
+    margin-left: 100px;
+    color: white;
+}
+.icons{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.icons i{
+    margin-left: 100px !important;
+    margin-right: 100px;
+    
+}
+
+.icons2{
+    margin-bottom: 70px;
+}
+.icons2 i{
+    margin-left: 100px !important;
+    margin-right: 100px; 
+
+}
+
+.contact button{
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+}
